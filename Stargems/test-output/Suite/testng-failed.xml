@@ -3,13 +3,27 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testClass.VerifyNewsLetterSubscriptionTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyNewsLetterSubscriptionMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testClass.VerifyNewsLetterSubscriptionTest -->
+      <class name="testClass.ExcellExample">
+        <methods>
+          <include name="demoClass"/>
+        </methods>
+      </class> <!-- testClass.ExcellExample -->
       <class name="testClass.VerifyAndDeleteRegisteredAccountTest">
         <methods>
           <include name="afterSuite"/>
           <include name="tearDown"/>
           <include name="beforeSuite"/>
-          <include name="verifyAndDeleteRegisteredAccountMethod"/>
           <include name="beforeMethod"/>
+          <include name="verifyAndDeleteRegisteredAccountMethod"/>
         </methods>
       </class> <!-- testClass.VerifyAndDeleteRegisteredAccountTest -->
     </classes>

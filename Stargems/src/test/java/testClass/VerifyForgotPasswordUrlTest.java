@@ -17,7 +17,7 @@ public class VerifyForgotPasswordUrlTest extends BeforeAfterTest{
 		Thread.sleep(10000);
 		VerifyForgotPasswordPage objForgorPwd = VerifyForgotPasswordPage.objectReturn();
 		objForgorPwd.clickOnForgotPassword();
-		Thread.sleep(15000);
+		Thread.sleep(5000);
 		
 		String actualUrl = objForgorPwd.getCurrentUrlMethod();
 		String expectedUrl = "https://stargems-frontend.apps.openxcell.dev/forgot-password";
