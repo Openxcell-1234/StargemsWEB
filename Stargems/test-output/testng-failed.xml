@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testClass.VerifyNewsLetterSubscriptionTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyNewsLetterSubscriptionMethod"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testClass.VerifyNewsLetterSubscriptionTest -->
+      <class name="testClass.ExcellExample">
+        <methods>
+          <include name="demoClass"/>
+        </methods>
+      </class> <!-- testClass.ExcellExample -->
       <class name="testClass.VerifyAndDeleteRegisteredAccountTest">
         <methods>
           <include name="afterSuite"/>
@@ -13,5 +27,5 @@
         </methods>
       </class> <!-- testClass.VerifyAndDeleteRegisteredAccountTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
