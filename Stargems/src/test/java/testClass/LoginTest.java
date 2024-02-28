@@ -10,13 +10,15 @@ public class LoginTest extends BeforeAfterTest{
 	}
 	
 	@Test
-	public void method12() {
+	public void method_89() {
 		
 	}
 	
 	@Test
-	public void method13() {
+	public void method_87() {
 		
 	}
+	
+	
 	
 }
