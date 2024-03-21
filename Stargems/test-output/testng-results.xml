@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T16:25:27 IST" name="Default suite" finished-at="2024-02-28T16:25:44 IST" duration-ms="16414">
+  <suite started-at="2024-03-21T09:29:57 IST" name="Default suite" finished-at="2024-03-21T09:30:16 IST" duration-ms="18438">
     <groups>
     </groups>
-    <test started-at="2024-02-28T16:25:27 IST" name="Default test" finished-at="2024-02-28T16:25:44 IST" duration-ms="16414">
-      <class name="testClass.HomeTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testClass.HomeTest@4b29d1d2]" started-at="2024-02-28T16:25:27 IST" name="beforeSuite" finished-at="2024-02-28T16:25:27 IST" duration-ms="514" status="PASS">
+    <test started-at="2024-03-21T09:29:57 IST" name="Default test" finished-at="2024-03-21T09:30:16 IST" duration-ms="18438">
+      <class name="testClass.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testClass.LoginTest@576d5deb]" started-at="2024-03-21T09:29:57 IST" name="beforeSuite" finished-at="2024-03-21T09:29:57 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClass.HomeTest@4b29d1d2]" started-at="2024-02-28T16:25:27 IST" name="beforeMethod" finished-at="2024-02-28T16:25:43 IST" duration-ms="16151" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testClass.LoginTest@576d5deb]" started-at="2024-03-21T09:29:57 IST" name="beforeMethod" finished-at="2024-03-21T09:30:16 IST" duration-ms="18126" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=HomeTest.method()[pri:0, instance:testClass.HomeTest@4b29d1d2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.method()[pri:0, instance:testClass.LoginTest@576d5deb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="method()[pri:0, instance:testClass.HomeTest@4b29d1d2]" started-at="2024-02-28T16:25:43 IST" name="method" finished-at="2024-02-28T16:25:43 IST" duration-ms="10" status="PASS">
+        <test-method signature="method()[pri:0, instance:testClass.LoginTest@576d5deb]" started-at="2024-03-21T09:30:16 IST" name="method" finished-at="2024-03-21T09:30:16 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClass.HomeTest@4b29d1d2]" started-at="2024-02-28T16:25:43 IST" name="tearDown" finished-at="2024-02-28T16:25:44 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testClass.LoginTest@576d5deb]" started-at="2024-03-21T09:30:16 IST" name="tearDown" finished-at="2024-03-21T09:30:16 IST" duration-ms="261" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=method status=SUCCESS method=HomeTest.method()[pri:0, instance:testClass.HomeTest@4b29d1d2] output={null}]]]>
+                <![CDATA[[TestResult name=method status=SUCCESS method=LoginTest.method()[pri:0, instance:testClass.LoginTest@576d5deb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testClass.HomeTest@4b29d1d2]" started-at="2024-02-28T16:25:49 IST" name="afterSuite" finished-at="2024-02-28T16:25:50 IST" duration-ms="1289" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testClass.LoginTest@576d5deb]" started-at="2024-03-21T09:30:21 IST" name="afterSuite" finished-at="2024-03-21T09:30:21 IST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testClass.HomeTest -->
+      </class> <!-- testClass.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
