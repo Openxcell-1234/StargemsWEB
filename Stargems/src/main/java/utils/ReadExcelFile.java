@@ -21,8 +21,8 @@ public class ReadExcelFile {
 		}
 	}
 
-	public String getData(int sheetnumber, int row, int column) {
-		sheet = work_book.getSheetAt(sheetnumber);
+	public String getData(int sheetIndex, int row, int column) {
+		sheet = work_book.getSheetAt(sheetIndex);
 		String data = sheet.getRow(row).getCell(column).getStringCellValue();
 		return data;
 	}
